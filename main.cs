@@ -12,6 +12,9 @@ class MainClass {
 		
 	Card myObj = new Card("bob", "bob", 5);
 	Console.WriteLine(myObj.name);
+
+	Resource myObj1 = new Resource("iron", "red", 100);
+	Console.WriteLine(myObj1.name);
 	}
 
 
