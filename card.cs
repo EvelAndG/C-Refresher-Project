@@ -4,6 +4,11 @@ public class Card
 	public string Type;
 	public int Number;
 
+	public override string ToString()
+	{
+		return this.Name + " " + this.Type + " " + this.Number;
+	}
+
   public Card()
 	{
         

@@ -12,13 +12,15 @@ class MainClass {
 
    // Card card2 = new Card("banana","cool type",7);
 
-	 Resource resource1 = new Resource("fine wood", "beige", 100);
+	 //Resource resource1 = new Resource("fine wood", "beige", 100);
 
-		Card card3 = new Card();
+		Card card1 = new Card ("bob", "ultra type", 8);
+
+		Console.WriteLine(card1);
 
   
 
-		Console.WriteLine(resource1.ToString());
+		
 
    
   }
