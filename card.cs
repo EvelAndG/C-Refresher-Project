@@ -6,7 +6,7 @@ public class Card
 
 	public override string ToString()
 	{
-		return this.Name + " " + this.Type + " " + this.Number;
+		return "Name: "+ this.Name+"\n" + "Type: " + this.Type + "\n" + "Number: " + this.Number +"\n";
 	}
 
   public Card()

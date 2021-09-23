@@ -4,6 +4,12 @@ public class Resource
 	public string Color;
 	public int Quantity;
 
+	public override string ToString()
+	{
+		return "Name: "  + this.Name+"\n" + 
+		"Color: " + this.Color + "\n" + "Qty: " + this.Quantity + "\n";
+	}
+
 	public Resource(string resourceName, string resourceColor, int resourceQuantity)
 	{
 		Name = resourceName;
