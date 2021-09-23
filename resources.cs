@@ -1,13 +1,30 @@
-public class Resource {
-	public string name;
-	public string color;
-	public int quantity;
+public class Resource 
+{
+	public string Name;
+	public string Color;
+	public int Quantity;
 
 	public Resource(string resourceName, string resourceColor, int resourceQuantity)
 	{
-		name = resourceName;
-		color = resourceColor;
-		quantity = resourceQuantity;
+		Name = resourceName;
+		Color = resourceColor;
+		Quantity = resourceQuantity;
+	}
+
+	public Resource(string resourceName)
+	{
+		Name = resourceName;
+		Color = "";
+		Quantity = 0;
+		
+	}
+
+	public Resource()
+	{
+		Name = "";
+		Color = "";
+		Quantity = 0;
+
 	}
 	
 
