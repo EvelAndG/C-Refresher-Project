@@ -16,11 +16,14 @@ class MainClass {
 
 	 Resource resource1 = new Resource("fine wood", "beige", 100);
 
-		Card card1 = new Card ("bob", "ultra type", 8);
+		Card card1 = new Card ("bob");
+
+		Card card2 = new Card("Charizard");
 
 		Console.WriteLine(card1);
+		Console.WriteLine(card2);
 
-		Console.WriteLine(resource1);
+	
 
 
 

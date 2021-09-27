@@ -1,8 +1,8 @@
 public class Resource 
 {
-	public string Name;
-	public string Color;
-	public int Quantity;
+	public string Name {get; set;}
+	public string Color {get; set;}
+	public int Quantity {get; set;}
 
 	public override string ToString()
 	{

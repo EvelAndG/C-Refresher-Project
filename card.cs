@@ -1,12 +1,13 @@
 public class Card 
 {
-	public string Name;
-	public string Type;
-	public int Number;
+	public string Name {get; set;}
+	public string Type {get; set;}
+	static int Number = 1;
+	
 
 	public override string ToString()
 	{
-		return "Name: "+ this.Name+"\n" + "Type: " + this.Type + "\n" + "Number: " + this.Number +"\n";
+		return "Name: "+ this.Name+"\n" + "Type: " + this.Type + "\n" + "Number: " + Number +"\n";
 	}
 
   public Card()
@@ -18,7 +19,8 @@ public class Card
 	{
 		Name = cardName;
 		Type = "";
-		Number = 0;
+		
+		
 
 	}
 
@@ -26,7 +28,7 @@ public class Card
 	{
 		Name = cardName;
 		Type = cardType;
-		Number = cardNumber;
+		Number = cardNumber++;
 	}
 	
 
