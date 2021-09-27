@@ -30,6 +30,10 @@ class MainClass {
 		Console.WriteLine(card3);
 		Console.WriteLine(card4);
 
+		Resource resource1 = new Resource("Core Wood", "Brown", 100);
+
+		Console.WriteLine(resource1);
+
 	
 
 

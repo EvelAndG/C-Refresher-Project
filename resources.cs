@@ -17,6 +17,12 @@ public class Resource
 		Quantity = resourceQuantity;
 	}
 
+	public Resource(string resourceName, string resourceColor)
+	{
+		Name = resourceName;
+		Color = resourceColor;
+	}
+
 	public Resource(string resourceName)
 	{
 		Name = resourceName;
