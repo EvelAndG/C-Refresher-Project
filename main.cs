@@ -14,14 +14,21 @@ class MainClass {
 
    // Card card2 = new Card("banana","cool type",7);
 
-	 Resource resource1 = new Resource("fine wood", "beige", 100);
+	 //Resource resource1 = new Resource("fine wood", "beige", 100);
 
-		Card card1 = new Card ("bob");
+		Card card1 = new Card ("bob", "rare");
 
-		Card card2 = new Card("Charizard");
+		Card card2 = new Card ("charizard", "fire");
+
+		Card card3 = new Card ("squirtle");
+
+		Card card4 = new Card();
+
 
 		Console.WriteLine(card1);
 		Console.WriteLine(card2);
+		Console.WriteLine(card3);
+		Console.WriteLine(card4);
 
 	
 

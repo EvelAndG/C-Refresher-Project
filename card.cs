@@ -2,7 +2,8 @@ public class Card
 {
 	public string Name {get; set;}
 	public string Type {get; set;}
-	static int Number = 1;
+	int Number = 1;
+	static int numberCounter = 1;
 	
 
 	public override string ToString()
@@ -12,14 +13,24 @@ public class Card
 
   public Card()
 	{
+		Number = numberCounter++;
+	
         
 	}
 
 	public Card(string cardName)
 	{
 		Name = cardName;
+		Number = numberCounter++;
+				
+
+	}
+
+	public Card(string cardName, string cardType) 
+	{
+		Name = cardName;
 		Type = "";
-		
+		Number = numberCounter++;
 		
 
 	}
@@ -28,7 +39,8 @@ public class Card
 	{
 		Name = cardName;
 		Type = cardType;
-		Number = cardNumber++;
+		Number = numberCounter++;
+		
 	}
 	
 

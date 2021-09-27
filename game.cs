@@ -1,10 +1,11 @@
 using System.Collections.Generic;
  
-public class Game 
+public static class Game 
 {
-public string Name {get; set;}
-public List<Card> cards = new List<Card>();
+	static string Name;
+	static List<Card> cards = new List<Card>();
 
-//cards.Add(new Card(){Name="bob", Type="cool", Number = 2});
-
+//Card tempCard = new Card();
+	
+	
 }
