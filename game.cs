@@ -26,6 +26,21 @@ static class Game
     }
 
 	}
+
+	//Game Report - In Progress
+	public static void GameReport()
+	{
+		Console.WriteLine("\n"+Game.Name);
+
+	}
+
+	//Find Card Method - In Progress
+	public static void FindCard()
+	{
+		
+	
+
+	}
 	
 
 }
