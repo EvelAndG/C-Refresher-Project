@@ -44,7 +44,7 @@ class MainClass {
 				userNum = Convert.ToInt32(userFindNum);
 
 
-			Game.FindCard();
+			Game.FindCard(userNum);
 		}
 
 

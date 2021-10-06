@@ -35,9 +35,10 @@ static class Game
 	}
 
 	//Find Card Method - In Progress
-	public static void FindCard()
+	public static void FindCard(int i)
 	{
 		
+		Console.WriteLine(cards[i]);
 	
 
 	}
