@@ -1,5 +1,12 @@
+using System;
+using System.Collections.Generic;
+
+
 public class Resource 
 {
+
+	public static List<Resource> resources = new List<Resource>();
+	
 	public string Name {get; set;}
 	public string Color {get; set;}
 	public int Quantity {get; set;}
@@ -36,6 +43,26 @@ public class Resource
 		Name = "";
 		Color = "";
 		Quantity = 0;
+
+	}
+
+	public static void AddResource(string name, string color)
+	{
+		Console.WriteLine("Please Enter a resource name: ");
+		string newName = Console.ReadLine();
+
+		Console.WriteLine("Please Enter a color: ");
+    string newColor = Console.ReadLine();
+
+		Resource newResource = new Resource(newName,newColor);
+
+
+		resources.Add(newResource);
+
+    foreach(Resource resource in resources)
+	{
+      Console.WriteLine(resource);
+    }
 
 	}
 	

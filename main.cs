@@ -11,16 +11,10 @@ class MainClass {
     Console.WriteLine(String.Format("{0:F2}", totalCost));
 		
 		Console.WriteLine();
-		
 
-  
-		
+		//Game.AddCard("", "");
 
-		Resource resource1 = new Resource("Core Wood", "Brown", 100);
-
-		Console.WriteLine(resource1);
-
-		Game.AddCard("Charizard", "super");
+		Resource.AddResource("","");
 
 
 

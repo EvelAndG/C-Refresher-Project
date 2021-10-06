@@ -5,8 +5,9 @@ static class Game
 {
 	public static string Name ="Stone Age";
 	public static List<Card> cards = new List<Card>();
-	public static List<Resource> resources = new List<Resource>();
+	
 
+	//Add Card Method
 	public static void AddCard(string name, string type)
 	{
 		Console.WriteLine("Please Enter a card name: ");
@@ -16,8 +17,6 @@ static class Game
     string newType = Console.ReadLine();
 
 		Card newCard = new Card(newName,newType);
-
-		Console.WriteLine(newCard);
 
 		cards.Add(newCard);
 
