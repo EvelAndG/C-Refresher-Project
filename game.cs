@@ -8,7 +8,7 @@ static class Game
 	
 
 	//Add Card Method
-	public static void AddCard(string name, string type)
+	public static void AddCard()
 	{
 		Console.WriteLine("Please Enter a card name: ");
 		string newName = Console.ReadLine();

@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 
 class MainClass {
-  public static void Main (string[] args) {
+  public static void Main (string[] args) 
+	{
+
     
     double totalCost = 100.2786753;
 
@@ -10,23 +12,11 @@ class MainClass {
 
     Console.WriteLine(String.Format("{0:F2}", totalCost));
 		
-		Console.WriteLine();
+		Console.WriteLine(Game.Name);
 
-		//Game.AddCard("", "");
+		Game.AddCard();
 
-		Resource.AddResource("","");
-
-
-
-	
-	
-
-
-
-  
-
-		
-
+		Resource.AddResource();
    
   }
 }

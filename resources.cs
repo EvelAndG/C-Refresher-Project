@@ -46,7 +46,7 @@ public class Resource
 
 	}
 
-	public static void AddResource(string name, string color)
+	public static void AddResource()
 	{
 		Console.WriteLine("Please Enter a resource name: ");
 		string newName = Console.ReadLine();
