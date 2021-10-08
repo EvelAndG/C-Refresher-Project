@@ -33,7 +33,7 @@ class MainClass {
 
 		if (userInt == 3)
 		{
-			Console.WriteLine("\nResource total not implemented yet");
+			Game.ResourceTotal();
 		}
 
 
