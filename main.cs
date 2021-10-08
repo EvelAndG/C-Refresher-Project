@@ -11,7 +11,7 @@ class MainClass {
 
 		while ( userInt != 7)
 		{
-		Console.WriteLine("\nWelcome to the Menu! \nPlease enter the corresponding number to make selection: \n");
+		Console.WriteLine("\nWelcome to the Menu! \nPlease enter a corresponding number to make selection: \n");
 
 		Console.WriteLine("1: Print Game Name \n2: Game Report \n3: Total of all Resources \n4: Find a card \n5: Add a Card \n6: Add a Resource \n7: Quit Program");
 
@@ -56,7 +56,7 @@ class MainClass {
 
 		if (userInt ==6)
 		{
-			Resource.AddResource();
+			Game.AddResource();
 		}
 
 		} //end of while loop
