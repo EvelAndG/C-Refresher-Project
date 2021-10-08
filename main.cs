@@ -5,9 +5,7 @@ class MainClass {
   public static void Main (string[] args) 
 	{
 			int userInt = 0;
-			int userNum = 0;
-
-			
+			int userNum = 0;			
 
 		while ( userInt != 7)
 		{
@@ -33,7 +31,7 @@ class MainClass {
 
 		if (userInt == 3)
 		{
-			Game.ResourceTotal();
+			Console.WriteLine("\nTotal of Resources: "+Game.ResourceTotal());
 		}
 
 
@@ -60,20 +58,11 @@ class MainClass {
 		}
 
 		} //end of while loop
-
-
     
     //double totalCost = 100.2786753;
 
     //Console.WriteLine(String.Format("{0:C}", totalCost));
 
-   // Console.WriteLine(String.Format("{0:F2}", totalCost));
-		
-		//Console.WriteLine(Game.Name);
-
-		//Game.AddCard();
-
-	//	Resource.AddResource();
-   
+   // Console.WriteLine(String.Format("{0:F2}", totalCost));   
   }
 }

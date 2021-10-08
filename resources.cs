@@ -3,10 +3,7 @@ using System.Collections.Generic;
 
 
 public class Resource 
-{
-
-	
-	
+{	
 	public string Name {get; set;}
 	public string Color {get; set;}
 	public int Quantity {get; set;}

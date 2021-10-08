@@ -22,9 +22,7 @@ static class Game
 
 		cards.Add(newCard);
 
-		Console.WriteLine("\n---Card Added---");
-
-  
+		Console.WriteLine("\n---Card Added---");  
 
 	}
 
@@ -41,7 +39,6 @@ static class Game
 		int newQuantity = Int32.Parse(userQuantity);
 
 		Resource newResource = new Resource(newName,newColor, newQuantity);
-
 
 		resources.Add(newResource);
 		Console.WriteLine("\n---Resource Added---"); 
@@ -72,17 +69,15 @@ static class Game
 
 	}
 
-	public static void ResourceTotal()
+	public static int ResourceTotal()
 	{
 		
 		foreach(Resource resource in resources)
 		{
 		resourceTotal += resource.Quantity;
-		Console.WriteLine("\nResource Quantity Total: "+resourceTotal);
+		
 		}
-
+		return resourceTotal;
 
 	}
-	
-
 }
